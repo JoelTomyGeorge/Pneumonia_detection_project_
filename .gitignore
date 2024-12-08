@@ -1,0 +1,6 @@
+train/
+test/
+val/
+.venv/
+.ipynb_checkpoints
+models/
