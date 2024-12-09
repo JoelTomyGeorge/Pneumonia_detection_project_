@@ -35,7 +35,7 @@ if uploaded_file is not None:
         processed_image = preprocess_image(img)
 
         # Display the uploaded image
-        st.image(img, caption='Uploaded Image', use_container_width=True, width =250)
+        st.image(img, caption='Uploaded Image', use_container_width=True, width =150)
 
         # Make prediction
         with st.spinner("Making prediction..."):
