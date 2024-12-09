@@ -23,7 +23,7 @@ st.write("Upload an image of a chest X-ray to predict if it shows pneumonia.")
 st.sidebar.title("Options")
 st.sidebar.header("About the Model")
 st.sidebar.write("This model is trained to detect pneumonia from chest X-ray images.")
-st.sidebar.write("Accuracy: 90%")
+st.sidebar.write("Accuracy: 92%")
 
 # File uploader for image input
 uploaded_file = st.file_uploader("Choose an image...", type=["jpg", "jpeg", "png"])
